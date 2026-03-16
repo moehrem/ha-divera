@@ -36,7 +36,7 @@ jobs:
 
       - name: Run Pylint
         run: |
-          pylint custom_components/diveracontrol --exit-zero
+          pylint custom_components/divera --exit-zero
 
   security_checks:
     name: "🔒 Security Checks"
