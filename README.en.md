@@ -17,6 +17,7 @@
 This is a Divera integration for personal use. No extended permissions are
 required. It fully covers typical home use cases. It provides alarms, news,
 events, vehicle states, and your user status.
+
 An integration with advanced features, including alarm creation and setting
 vehicle status, can be found here:
 [DiveraControl](https://github.com/moehrem/DiveraControl)
