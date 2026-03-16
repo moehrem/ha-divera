@@ -10,8 +10,8 @@ permissions:
   contents: read
 
 concurrency:
-  # Bei Push: "CI-push-dev", bei PR zu main: "CI-pr-123"
-  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.event_name == 'push' && github.ref_name || github.event.pull_request.number }}
+  # Bei Pull Request: "CI-pull_request-123", bei anderen Events: "CI-<event>-<ref_name>"
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.event_name == 'pull_request' && github.event.pull_request.number || github.ref_name }}
   cancel-in-progress: true
 
 jobs:
