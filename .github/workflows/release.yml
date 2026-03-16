@@ -20,9 +20,9 @@ jobs:
       - name: Build HACS ZIP
         run: |
           mkdir -p dist
-          cd custom_components/divera
-          zip -r ../../dist/divera.zip . \
+          zip -r dist/divera.zip custom_components/divera \
             -x "*/__pycache__/*" "*.pyc"
+
 
       - name: Upload asset to release
         uses: softprops/action-gh-release@v2
