@@ -10,8 +10,8 @@ permissions:
   contents: read
 
 concurrency:
-  # Bei Push: "HACS-push-dev", bei PR zu main: "HACS-pr-123"
-  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.event_name == 'push' && github.ref_name || github.event.pull_request.number }}
+  # Bei PR: "HACS-pull_request-123", bei Schedule: "HACS-schedule-main"
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.event.pull_request.number || github.ref_name }}
   cancel-in-progress: true
 
 jobs:
