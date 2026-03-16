@@ -1,0 +1,82 @@
+{
+  "title": "Divera 24/7",
+  "config": {
+    "step": {
+      "api": {
+        "title": "Divera 24/7 Setup",
+        "description": "The accesskey will be used to pull the data from the servers. You can found your accesskey in your settings under debug item.",
+        "data": {
+          "accesskey": "Accesskey",
+          "base_url": "Server Address"
+        }
+      },
+      "user_cluster_relation": {
+        "data": {
+          "clusters": "Active units:"
+        },
+        "description": "A DIVERA 24/7 account can have several units at the same time. By default, only the main unit is loaded."
+      },
+      "reconfigure_confirm": {
+        "data": {
+          "clusters": "Active units:"
+        },
+        "description": "Reconfigure the entry for your user."
+      }
+    },
+    "error": {
+      "cannot_connect": "Error during connection.",
+      "authentication": "Error during authentication.",
+      "unknown": "Unknown Error"
+    },
+    "abort": {
+      "already_configured": "This User is already configured.",
+      "reconfigure_successful": "Reconfigure successfully.",
+      "only_one_unit": "This user only has one unit.",
+      "not_supported": "This access key is not supported. Please use the access key of a user."
+    }
+  },
+  "options": {
+    "step": {
+      "scan_interval": {
+        "title": "Divera 24/7 Options",
+        "description": "The update interval must be between 10 and 300 seconds. If the interval is too short, this may lead to problems.",
+        "data": {
+          "scan_interval": "Update Interval (seconds)"
+        }
+      }
+    }
+  },
+  "exceptions": {
+    "user_state_error": {
+      "message": "Error when changing the user status in {cluster_name}"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "alarm": {
+        "name": "last Alarm"
+      },
+      "news": {
+        "name": "last News"
+      },
+      "vehicle": {
+        "name": "vehicle status {vehicle_name}"
+      }
+    },
+    "binary_sensor": {
+      "active_alarm": {
+        "name": "active Alarm"
+      }
+    },
+    "select": {
+      "user_status": {
+        "name": "User Status"
+      }
+    },
+    "calendar": {
+      "events": {
+        "name": "Events"
+      }
+    }
+  }
+}
