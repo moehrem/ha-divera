@@ -20,7 +20,7 @@ jobs:
       - name: Build HACS ZIP
         run: |
           mkdir -p dist
-          cd custom_components/diveracontrol
+          cd custom_components/divera
           zip -r ../../dist/DiveraControl.zip . \
             -x "*/__pycache__/*" "*.pyc"
 
