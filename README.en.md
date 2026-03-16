@@ -10,6 +10,21 @@
 
 ---
 
+![update-badge](https://img.shields.io/github/last-commit/moehrem/ha-divera?label=last%20update)
+
+[![GitHub Release](https://img.shields.io/github/v/release/moehrem/ha-divera?sort=semver)](https://github.com/moehrem/ha-divera/releases)
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/moehrem/ha-divera)
+![GitHub last commit](https://img.shields.io/github/last-commit/moehrem/ha-divera)
+![GitHub issues](https://img.shields.io/github/issues/moehrem/ha-divera)
+
+![HA Analytics](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fanalytics.home-assistant.io%2Fcustom_integrations.json&query=%24.ha-divera.total&label=Active%20Installations)
+[![hacs](https://img.shields.io/badge/HACS-Integration-blue.svg)](https://github.com/hacs/integration)
+[![HASS QS](https://github.com/moehrem/ha-divera/actions/workflows/hass.yml/badge.svg)](https://github.com/moehrem/ha-divera/actions/workflows/hass.yml)
+[![HACS QS](https://github.com/moehrem/ha-divera/actions/workflows/hacs.yml/badge.svg)](https://github.com/moehrem/ha-divera/actions/workflows/hacs.yml)
+
+---
+
 # Divera 24/7
 
 > Note: This integration is based on the work of @fwmarcel. Unfortunately, the original integration is no longer available and is therefore temporarily provided here. Thank you for your work.
