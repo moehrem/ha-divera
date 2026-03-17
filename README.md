@@ -29,7 +29,7 @@
 
 > Hinweis: Diese Integration basiert auf der Arbeit von @fwmarcel. Leider ist seine originale Integration nicht mehr verfügbar und wird daher hier vorrübergehend bereit gestellt. Vielen Dank für deine Mühen!
 
-Dies ist eine Divera-Integration zur persönlichen Nutzung. Es sind keine erweiterten Berechtigungen erforderlich. Diese Integration deckt den üblichen Heimbedarf komplett ab. Es werden Alarme, News, Termine, Fahrzeugstatus und deine Benutzerstatus bereit gestellt.
+Dies ist eine Divera-Integration zur persönlichen Nutzung. Es sind keine erweiterten Berechtigungen erforderlich. Diese Integration deckt den üblichen Heimbedarf komplett ab. Es werden Alarme, News, Termine, Fahrzeugstatus und eine Funktion zum Setzen des Status bereit gestellt.
 
 Eine Integration mit erweiterten Funktionen, u.a. der Alarmerstellung, dem Setzen des Fahrzeugstatus etc findet sich hier: [DiveraControl](https://github.com/moehrem/DiveraControl)
 
@@ -80,4 +80,4 @@ Divera 24/7 ist via HACS (Home Assistant Community Store) verfügbar.
 ## Projektstatus
 
 Dieses Projekt wird nicht aktiv weiter entwickelt. Lediglich bugfixing bzw durch HA notwendige Codeanpassungen werden vorgenommen.
-In Zukunft soll dieses Projekt mit DiveraControl zusammengeführt werden.
+In Zukunft soll dieses Projekt mit [DiveraControl](https://github.com/moehrem/DiveraControl) zusammengeführt werden.
